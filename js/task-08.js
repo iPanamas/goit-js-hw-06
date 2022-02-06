@@ -1,5 +1,4 @@
 const formRef = document.querySelector('.login-form');
-formRef.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
     event.preventDefault();
@@ -20,3 +19,5 @@ function handleSubmit(event) {
     console.log(objectForm);
     event.currentTarget.reset();
 }
+
+formRef.addEventListener('submit', handleSubmit);
