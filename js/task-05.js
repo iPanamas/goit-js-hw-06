@@ -2,7 +2,7 @@ const inputRef = document.querySelector('#name-input');
 const outputRef = document.querySelector('#name-output');
 
 const inputHandle = () =>
-    inputRef.value.length > 0
+    inputRef.value.length
         ? (outputRef.textContent = inputRef.value)
         : (outputRef.textContent = 'Anonymous');
 

@@ -31,8 +31,5 @@ ul {
 
 .gallery {
   display: flex;
-}
-
-.gallery-item:not(:first-child) {
-  margin-left: 20px;
+  justify-content: space-evenly;
 }
